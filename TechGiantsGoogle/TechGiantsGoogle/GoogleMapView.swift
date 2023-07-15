@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct GoogleMapView: View {
+    @State private var region = MKCoordinateRegion (
+        center: CLLocationCoordinate2D(latitude: 37.4221, longitude: -122.0841),
+        span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+    )
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Map(coordinateRegion: $region)
     }
 }
 

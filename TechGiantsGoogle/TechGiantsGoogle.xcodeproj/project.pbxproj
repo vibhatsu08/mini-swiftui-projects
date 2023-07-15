@@ -14,6 +14,8 @@
 		145284802A63537000BAF03D /* TechGiantsGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452847F2A63537000BAF03D /* TechGiantsGoogleTests.swift */; };
 		1452848A2A63537000BAF03D /* TechGiantsGoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145284892A63537000BAF03D /* TechGiantsGoogleUITests.swift */; };
 		1452848C2A63537000BAF03D /* TechGiantsGoogleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452848B2A63537000BAF03D /* TechGiantsGoogleUITestsLaunchTests.swift */; };
+		145284992A63555A00BAF03D /* SundarPichaiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145284982A63555A00BAF03D /* SundarPichaiImage.swift */; };
+		1452849B2A63562F00BAF03D /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452849A2A63562F00BAF03D /* GoogleMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		145284852A63537000BAF03D /* TechGiantsGoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechGiantsGoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145284892A63537000BAF03D /* TechGiantsGoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechGiantsGoogleUITests.swift; sourceTree = "<group>"; };
 		1452848B2A63537000BAF03D /* TechGiantsGoogleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechGiantsGoogleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		145284982A63555A00BAF03D /* SundarPichaiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundarPichaiImage.swift; sourceTree = "<group>"; };
+		1452849A2A63562F00BAF03D /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				1452846D2A63536E00BAF03D /* TechGiantsGoogleApp.swift */,
 				1452846F2A63536E00BAF03D /* ContentView.swift */,
+				145284982A63555A00BAF03D /* SundarPichaiImage.swift */,
+				1452849A2A63562F00BAF03D /* GoogleMapView.swift */,
 				145284712A63537000BAF03D /* Assets.xcassets */,
 				145284732A63537000BAF03D /* TechGiantsGoogle.entitlements */,
 				145284742A63537000BAF03D /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1452849B2A63562F00BAF03D /* GoogleMapView.swift in Sources */,
 				145284702A63536E00BAF03D /* ContentView.swift in Sources */,
 				1452846E2A63536E00BAF03D /* TechGiantsGoogleApp.swift in Sources */,
+				145284992A63555A00BAF03D /* SundarPichaiImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
